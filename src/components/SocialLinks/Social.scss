@@ -1,0 +1,123 @@
+@import '../../sass/default/variable';
+
+.st-social-info {
+  .st-social-text {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+    transition: all 0.5s ease;
+  }
+}
+
+.st-social-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.st-social-link {
+    
+  .st-social-btn {
+    border-radius: 50px;
+    background-color: $dark-color2;
+    border: 0.5px solid $dark-color5;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    .st-social-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      transition: all 0.4s ease;
+
+      svg {
+        scale: 1.5;
+      }
+    }
+
+    .st-icon-name {
+      font-weight: 600;
+      color: #fdfeff;
+      overflow: hidden;
+      max-width: 0;
+      transition: all 0.5s ease;
+    }
+
+    &:hover,
+    &.active {
+      padding-right: 15px;
+
+      .st-icon-name {
+        max-width: 140px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .st-social-link {
+    
+    .st-social-btn {
+      border-radius: 50px;
+      background-color: $dark-color2;
+      border: 0.5px solid $dark-color5;
+      transition: all 0.4s ease;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      height: 40px;
+  
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+  
+      .st-social-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        transition: all 0.4s ease;
+  
+        svg {
+          scale: 1.5;
+        }
+      }
+  
+      .st-icon-name {
+        font-weight: 400;
+        color: #fdfeff;
+        overflow: hidden;
+        max-width: 0;
+        transition: all 0.5s ease;
+      }
+  
+      &:hover,
+      &.active {
+        padding-right: 15px;
+  
+        .st-icon-name {
+          max-width: 160px;
+        }
+      }
+    }
+  }
+}
+
+

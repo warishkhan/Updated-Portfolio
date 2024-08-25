@@ -1,0 +1,168 @@
+@import "../../sass/default/variable";
+.projectsCon{
+  margin: 50px 0px;
+  margin-left: 140px;
+}
+
+.projectsCon hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.projectsCon h2 {
+  font-weight: bold;
+  color: #138781;
+}
+.st-iconbox.st-style1 {
+  text-align: center;
+  padding: 50px 30px;
+  border-radius: 3px;
+  transition: all 0.4s ease;
+  border: 1px solid ;
+  // background-color: $dark-color4;
+  width: min(100%,450px);
+  height: 350px;
+  margin: 10px;
+  img {
+    width: 52px;
+    filter: grayscale(1);
+    opacity: 0.35;
+    transition: inherit;
+  }
+
+  &:hover {
+    .st-iconbox-icon {
+      border: 0.5px solid $base-color1;
+      img {
+        filter: grayscale(0);
+        opacity: 1;
+      }
+    }
+    .st-iconbox-title {
+      color: $base-color1;
+    }
+  }
+
+  .st-iconbox-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border: 0.5px solid $dark-color5;
+    border-radius: 50%;
+    background-color: $dark-color2;
+    margin: auto;
+    font-size: 50px;
+    margin-bottom: 28px;
+    transition: all 0.4s ease;
+
+    svg {
+      width: 52px;
+      fill: $dark-color5;
+      transition: all 0.4s ease;
+    }
+  }
+
+  .st-iconbox-title {
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 20px;
+    margin-bottom: 16px;
+    transition: all 0.4s ease;
+  }
+
+  .st-iconbox-text {
+    margin-bottom: -6px;
+  }
+}
+
+.text-info{
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+.text-info::first-letter{
+  color:  #fec544;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+//card csss
+
+.main-container{
+  position: relative;
+  width: min(100%, 450px);
+  height: 350px;
+  top: 0;
+  left: 0;
+}
+
+.box{
+  position: absolute;
+  width: min(100%,450px);
+  height: 350px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+}
+
+.box:hover .box-content{
+  transform: rotateY(180deg);
+}
+
+.box-content{
+  width: min(100%,450px);
+  height: 350px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.front, .back{
+  position: absolute;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+.front{
+  width: min(100%,450px);
+  height: 350px;
+  flex-direction: column;
+}
+
+.back{
+  width: min(100%,450px);
+  height: 340px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.back-image{
+  height: 340px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  z-index: -1 !important;
+  height: 150px !important;
+  margin-bottom: 15px !important;
+}
+
+@media screen and (max-width:600px) {
+  .projectsCon{
+    margin:  0px;
+    margin-left: 0px;
+  }
+}

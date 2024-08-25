@@ -1,0 +1,279 @@
+{
+
+ 
+ 
+
+  
+    "serviceData": {
+      "services": [
+        {
+          "imgLink": "./images/icon/icon1.png",
+          "title": "Full Stack Application Development",
+          "text": "Develop a fully functional application with both front-end and back-end services. This includes database integration, API development, and deployment.",
+          "price": "$5000 - $12000",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "200"
+        },
+        {
+          "imgLink": "./images/icon/icon2.png",
+          "title": "UI/UX Design",
+          "text": "Design intuitive and aesthetically pleasing user interfaces and user experiences tailored to your target audience.",
+          "price": "$1500 - $5000",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "300"
+        },
+        {
+          "imgLink": "./images/icon/icon3.png",
+          "title": "API Development",
+          "text": "Build custom APIs to support the communication between different parts of your application. Includes RESTful services, security, and scalability.",
+          "price": "$1000 - $4000",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "400"
+        },
+        {
+          "imgLink": "./images/icon/icon4.png",
+          "title": "App Design",
+          "text": "Design mobile or web applications with a focus on functionality, performance, and user engagement.",
+          "price": "$2000 - $7000",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "500"
+        },
+        {
+          "imgLink": "./images/icon/icon5.png",
+          "title": "Frontend Application Development",
+          "text": "Develop the front-end of your application with modern technologies ensuring responsive design, animations, and interactive features.",
+          "price": "$3000 - $8000",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "600"
+        },
+        {
+          "imgLink": "./images/icon/icon6.png",
+          "title": "Responsive Design",
+          "text": "Create designs that work seamlessly across different devices and screen sizes, ensuring a consistent user experience.",
+          "price": "$1200 - $3500",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "700"
+        }
+      ]
+    },
+  
+  
+
+  "portfolioData": {
+    "portfolioItems": [
+      {
+        "imgLink": "https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2UlMjBnYWxsZXJ5fGVufDB8fDB8fHww",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Image Gallery",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/Image-Gallery",
+        "live":"https://image-g.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://www.lifewire.com/thmb/PbUolmKsvct159uD6itFp5leOZY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/youtube-app-fre-movies-0e0c7249ec954f5a88b1980b1e8b70a1.png",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Movie App",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/Movie-Search-App",
+        "live":"https://moviedb-search-app.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwaW1hZ2VzfGVufDB8fDB8fHww",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Portfolio Design",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/Internship-Project",
+        "live":"https://warish-portfolyo.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6aac56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "E-Commerce App",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/MyEcommerceApp",
+        "live":"https://monumental-salmiakki-304426.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://media.istockphoto.com/id/1577948707/photo/microscope-in-scientific-background.webp?b=1&s=612x612&w=0&k=20&c=QQsrp-eAl_WSDensUXRRMagEtOHJYbhAowQgCxuLARQ=",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Object Detection App",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/MyobjectDetectionApp",
+        "live":"https://objectdetectionapp-warish-khan.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1683262038148-2ac280407276?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZ1bGwlMjBzdGFjayUyMEFwcHxlbnwwfHwwfHx8MA%3D%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "E-Commerce FullStack App",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/Internshala-Backend-E-commerce-project",
+        "live":"https://internshal-e-commerce-project-production.onrender.com/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1688561384438-bfa9273e2c00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG5ld3NwYXBlcnN8ZW58MHx8MHx8fDA%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "News App",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/News-App",
+        "live":"https://playful-ganache-e33736.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG11c2ljJTIwQXBwfGVufDB8fDB8fHww",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Music App",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/MyMern-MusicApp",
+        "live":"https://chipper-biscuit-33a8e5.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1683309568772-57011d6c1b7b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Todo List App",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/Todo-List-Application",
+        "live":"https://list-app-war.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1683147858150-d1f96bae7d8f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Tab & filter App",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/Marmeto-project",
+        "live":"https://marmeto-war.netlify.app/",
+         "type":"web"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1681487807762-98fbe8a9db5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhdHxlbnwwfHwwfHx8MA%3D%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Chat Application",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/mychat",
+        "live":"https://chat-with-warish.netlify.app/",
+        "type":"web"
+      },
+      {
+        "imgLink": "https://images.unsplash.com/photo-1517605817225-1a38c494d974?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cG9zdCUyMEFwcHxlbnwwfHwwfHx8MA%3D%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Post Application",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/React-Native-Full-Stack-Post-App",
+        "live":"https://expo.dev/accounts/warish_khan/projects/client",
+        "type":"apk"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1681487732859-c2a780022063?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGVkdWNhdGlvbiUyMEFwcHxlbnwwfHwwfHx8MA%3D%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Education Application",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/React-Native-Education-App",
+        "live":"https://expo.dev/accounts/warish_khan/projects/education-app",
+        "type":"apk"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1710409625244-e9ed7e98f67b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW92aWUlMjBBcHB8ZW58MHx8MHx8fDA%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Movie Application",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/React-Native-Movie-App",
+        "live":"https://expo.dev/accounts/warish_khan/projects/movie-app",
+        "type":"apk"
+      },
+      {
+        "imgLink": "https://plus.unsplash.com/premium_photo-1668114375111-e90b5e975df6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9nc3xlbnwwfHwwfHx8MA%3D%3D",
+        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "title": "Dog Breed Viewer",
+        "subTitle": "Design / Marketing",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "github":"https://github.com/warishkhan/react-native-dog-app",
+        "live":"https://expo.dev/accounts/warish_khan/projects/dopbreedviewer",
+        "type":"apk"
+      }
+     
+     
+    ]
+  },
+  
+  
+
+  "socialData": [
+    {
+      "icon": "facebook-f",
+      "link": "https://www.facebook.com/share/fNbv7E2Zqik696iF/?mibextid=qi2Omg",
+      "platform":"facebook"
+    },
+    {
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/warish-khan-a577b9220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+       "platform":"linkedin"
+    },
+    {
+      "icon": "github",
+      "link": "https://github.com/warishkhan",
+       "platform":"github"
+    },
+    {
+      "icon": "instagram",
+      "link": "https://www.instagram.com/warish_khan_100_?igsh=MWhtcTliN3E4YjhuZw==",
+       "platform":"instagram"
+    }
+  ]
+}
