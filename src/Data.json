@@ -68,15 +68,15 @@
   "portfolioData": {
     "portfolioItems": [
       {
-        "imgLink": "https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2UlMjBnYWxsZXJ5fGVufDB8fDB8fHww",
+        "imgLink": "https://plus.unsplash.com/premium_photo-1683262038148-2ac280407276?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZ1bGwlMjBzdGFjayUyMEFwcHxlbnwwfHwwfHx8MA%3D%3D",
         "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Image Gallery",
+        "title": "E-Commerce FullStack App",
         "subTitle": "Design / Marketing",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200",
-        "github":"https://github.com/warishkhan/Image-Gallery",
-        "live":"https://image-g.netlify.app/",
+        "github":"https://github.com/warishkhan/Internshala-Backend-E-commerce-project",
+        "live":"https://internshal-e-commerce-project-production.onrender.com/",
          "type":"web"
       },
       {
@@ -127,16 +127,17 @@
         "live":"https://objectdetectionapp-warish-khan.netlify.app/",
          "type":"web"
       },
+      
       {
-        "imgLink": "https://plus.unsplash.com/premium_photo-1683262038148-2ac280407276?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZ1bGwlMjBzdGFjayUyMEFwcHxlbnwwfHwwfHx8MA%3D%3D",
+        "imgLink": "https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2UlMjBnYWxsZXJ5fGVufDB8fDB8fHww",
         "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "E-Commerce FullStack App",
+        "title": "Image Gallery",
         "subTitle": "Design / Marketing",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200",
-        "github":"https://github.com/warishkhan/Internshala-Backend-E-commerce-project",
-        "live":"https://internshal-e-commerce-project-production.onrender.com/",
+        "github":"https://github.com/warishkhan/Image-Gallery",
+        "live":"https://image-g.netlify.app/",
          "type":"web"
       },
       {

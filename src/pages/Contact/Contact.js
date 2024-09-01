@@ -5,12 +5,11 @@ import LightSpeed from "react-reveal/LightSpeed";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { useTheme } from "../../context/ThemeContext";
 import SocialLinks from "../../components/SocialLinks/SocialLinks";
-import Data from '../../Data.json'
+import Data from "../../Data.json";
 const Contact = () => {
   const [theme] = useTheme();
-  const {socialData} = Data;
+  const { socialData } = Data;
   console.log(socialData);
-  
 
   return (
     <>
@@ -30,7 +29,7 @@ const Contact = () => {
           }}
         >
           <div className="row">
-            <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
+            <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12">
               <div className="card1">
                 <div
                   className="row border-line"
@@ -42,7 +41,7 @@ const Contact = () => {
                   <LightSpeed>
                     <img
                       src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg?w=2000"
-                      alt="ocontact"
+                      alt="contact"
                       className="image"
                       style={{
                         borderRadius: theme === "light" ? 0 : "50%",
@@ -52,7 +51,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <Rotate>
                 <form
                   className="card2 d-flex card border-0 px-4 py-5"
@@ -91,17 +90,21 @@ const Contact = () => {
                       </h6> */}
 
                       <div className="st-social-info">
-                {/* <div className="st-social-text">{subTitle}</div> */}
-                <SocialLinks data={socialData} />
-              </div>
-
+                        {/* <div className="st-social-text">{subTitle}</div> */}
+                        <SocialLinks data={socialData} />
+                      </div>
                     </div>
 
                     <div className="row px-3 mb-4">
                       <div className="line" />
-                      <small className="or text-center" style={{
-                        color: theme === 'dark' ? '#fff' : '#000'
-                      }}>OR</small>
+                      <small
+                        className="or text-center"
+                        style={{
+                          color: theme === "dark" ? "#fff" : "#000",
+                        }}
+                      >
+                        OR
+                      </small>
                       <div className="line" />
                     </div>
                     <div className="row px-3">

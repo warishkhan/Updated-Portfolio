@@ -79,7 +79,7 @@ const IconCard = ({ data }) => {
                           alt="Icon"
                           className="rounded back-image"
                         />
-                        <p className="st-iconbox-text  text-center  text-info fs-2 fw-bold mb-1 ">
+                        <p className="st-iconbox-text  text-center  text-info fs-3 fw-bold mb-1 ">
                           {element.price}
                         </p>
                         <p

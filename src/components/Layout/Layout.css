@@ -33,7 +33,16 @@
 }
 
 /* ==== MOBILE VIEW ========== */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  .background-section{
+    width: 100%;
+  }
+} */
+
+@media (max-width: 1024px) {
   .sidebar {
     display: none;
   }
@@ -41,3 +50,4 @@
     width: 100%;
   }
 }
+

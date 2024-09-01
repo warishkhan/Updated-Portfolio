@@ -170,9 +170,9 @@
   text-decoration: none;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1024px) {
   .projectsCon{
-    margin:  0px;
-    margin-left: 0px;
+    margin:  0px !important;
+    margin-left: 0px !important;
   }
 }

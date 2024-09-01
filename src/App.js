@@ -19,9 +19,6 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   const [theme] = useTheme();
   const {  portfolioData,serviceData  } = data;
-
-  
-  
   
   return (
     <>

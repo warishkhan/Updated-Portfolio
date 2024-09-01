@@ -25,9 +25,9 @@
   height: 100%;
   width: 100%;
 }
-.border-line {
+/* .border-line {
   border-right: 1px solid;
-}
+} */
 .line {
   height: 1px;
   width: 45%;
@@ -88,11 +88,12 @@ button:focus {
 }
 
 /* ======================== */
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .contact {
     margin: 0;
     padding: 0;
     margin-top: 50px;
+    margin-bottom: 20px;
   }
   .contact .card2 {
     margin: 0;
@@ -103,4 +104,5 @@ button:focus {
     align-items: center;
     justify-content: center;
   }
+
 }
