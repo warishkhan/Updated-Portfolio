@@ -27,7 +27,32 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="May 2024 - present"
+              date="Nov 2024 - present"
+              iconStyle={{  background: theme === 'dark' ? "#138781" : "#1e1e2c", color: "#fff" }}
+              icon={<SiReact />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Web Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+              Arkentech Solutions, Viman-Pune, IN
+            </h4>
+            <ul style={{
+              color: '#000'
+            }}>
+              <li>Developed a client database system using HTML, CSS, JS, Bootstrap, SQL, PHP.</li>
+              <li>Ensured responsive, mobile-friendly UI for better accessibility.</li>
+              <li>Currently working on a CRM project using the MERN stack.</li>
+            </ul>
+              
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: theme === 'dark' ? "#12bdb4" : '#000'}}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="April 2024 - Sept 2024"
               iconStyle={{  background: theme === 'dark' ? "#138781" : "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
